@@ -1,0 +1,63 @@
+.profile {
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-style: solid;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+  gap: 5px;
+  max-width: 350px;
+  margin-top: 20px;
+}
+
+.hiroAvatar {
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  background-color: darkslategrey;
+}
+
+.name {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.tag,
+.location {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+.stats {
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.statslist {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+}
+
+.statsColomn {
+  display: flex;
+  flex-wrap: wrap;
+  border-style: solid;
+  border-color: gray;
+  background: darkgray;
+  padding: 10px;
+  gap: 5px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
